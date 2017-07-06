@@ -1,0 +1,11 @@
+[run]
+source=
+    libraries
+    functions
+
+include =
+    functions/*/main.py
+    libraries/*
+
+omit =
+    */__init__.py
